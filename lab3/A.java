@@ -5,10 +5,15 @@ public class A{
             System.out.println("program required 4 arguments");
             return;
         }
-            System.out.println("name - "+ args[0]);
-            System.out.println("course - "+ args[1]);
-            System.out.println("roll_no - "+ args[2]);
-            System.out.println("semester - "+ args[3]);
+
+        String name = args[0];
+        String course = args[1];
+        int roll = Integer.parseInt(args[2]);
+        int sem = Integer.parseInt(args[3]);
+            System.out.println("name - "+ name);
+            System.out.println("course - "+ course);
+            System.out.println("roll_no - "+ roll);
+            System.out.println("semester - "+ sem);
 
     }
 }
